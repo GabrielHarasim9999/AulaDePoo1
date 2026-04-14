@@ -21,4 +21,31 @@ public class Restaurante {
     public List<Produto> getCardapio(){
         return cardapio;
     }
+
+    public int getIdRestaurante() {
+        return idRestaurante;
+    }
+
+    public String getEnderecoRestaurante() {
+        return enderecoRestaurante;
+    }
+    public String getNomeRestaurante(){
+        return nomeRestaurante;
+    }
+
+    public void setCardapio(List<Produto> cardapio) {
+        this.cardapio = cardapio;
+    }
+
+    public void setIdRestaurante(int idRestaurante) {
+        this.idRestaurante = idRestaurante;
+    }
+
+    public void setEnderecoRestaurante(String enderecoRestaurante) {
+        this.enderecoRestaurante = enderecoRestaurante;
+    }
+
+    public void setNomeRestaurante(String nomeRestaurante) {
+        this.nomeRestaurante = nomeRestaurante;
+    }
 }

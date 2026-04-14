@@ -26,4 +26,60 @@ public class Usuarios {
                 ",Telefone:" + telefone +
                 ",Tipo Usuario:" + tipoUsuario ;
     }
+
+    public int getIdUsuario() {
+        return idUsuario;
+    }
+
+    public String getCPF() {
+        return CPF;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public String getTipoUsuario() {
+        return tipoUsuario;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public void setIdUsuario(int idUsuario) {
+        this.idUsuario = idUsuario;
+    }
+
+    public void setCPF(String CPF) {
+        this.CPF = CPF;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+
+    public void setTipoUsuario(String tipoUsuario) {
+        this.tipoUsuario = tipoUsuario;
+    }
 }

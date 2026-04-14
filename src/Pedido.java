@@ -29,4 +29,14 @@ public class Pedido {
     public void finalizarPedido(){
         double total = calcularTotal();
     }
+    public Cliente getCliente(){
+        return cliente;
+    }
+    public Entregador getEntregador(){
+        return entregador;
+    }
+
+    public void setIdPedido(int idPedido) {
+        this.idPedido = idPedido;
+    }
 }

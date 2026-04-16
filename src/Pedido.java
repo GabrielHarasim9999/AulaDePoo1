@@ -26,6 +26,9 @@ public class Pedido {
         return  total;
     }
 
+public int getId(){
+        return idPedido;
+}
     public void finalizarPedido(){
         double total = calcularTotal();
     }
@@ -38,5 +41,21 @@ public class Pedido {
 
     public void setIdPedido(int idPedido) {
         this.idPedido = idPedido;
+    }
+
+    public int getIdPedido() {
+        return idPedido;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
+    public void setEntregador(Entregador entregador) {
+        this.entregador = entregador;
+    }
+
+    public void setItens(List<ItensPedido> itens) {
+        this.itens = itens;
     }
 }
